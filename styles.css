@@ -1,0 +1,6 @@
+body {
+	/* background-image: url(images/pattern-background-desktop.svg), linear-gradient(90deg, hsl(225, 100%, 94%), hsl(225, 100%, 94%)); */
+	background-image: url(./images/pattern-background-desktop.svg);
+	background-repeat: no-repeat;
+	background-color: hsl(225, 100%, 94%);
+}
