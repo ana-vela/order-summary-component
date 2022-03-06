@@ -34,3 +34,15 @@ body {
 h2 {
 	font-size: 16px;
 }
+
+.payment {
+	color: white;
+	font-size: 16px;
+	font-weight: 900;
+	border: none;
+	margin: 40px 0 20px 0;
+	padding: 20px 100px;
+	border-radius: 20px;
+	
+	background-color: hsl(245, 75%, 52%);
+}
