@@ -36,9 +36,20 @@ h2 {
 }
 .info {
 	background-color: hsl(225, 100%, 98%);
-	padding: 10%;
+	padding: 5%;
+	width: 80%;
+	margin: 10%;
 	display: flex;
+	justify-content: space-between;
+	border-radius: 20px;
+	/* align-items: left; */
 	/* flex-direction: column; */
+}
+
+.music-icon {
+	/* align-items: left; */
+	justify-content: left;
+	/* padding-right: 5%; */
 }
 
 .plan {
@@ -47,8 +58,17 @@ h2 {
 }
 .plan-type {
 	font-weight: bold;
+	/* justify-content: left; */
 }
 
+.plan-price {
+	/* padding-left: 20%; */
+	justify-content: right;
+}
+
+.change-link {
+	margin-top: 5%;
+}
 .payment {
 	color: white;
 	font-size: 1rem;
