@@ -46,3 +46,12 @@ h2 {
 	
 	background-color: hsl(245, 75%, 52%);
 }
+
+.cancel {
+	background-color: white;
+	color: hsl(224, 23%, 55%);
+	font-size: 16px;
+	font-weight: 700;
+	border: none;
+	margin: 10px 0 20px 0;
+}
