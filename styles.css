@@ -30,10 +30,13 @@ body {
 
 }
 
-h2 {
+p {
 	font-size: 1rem;
 	padding: 0 10%;
+	color:  hsl(224, 23%, 55%) ;
+
 }
+
 .info {
 	background-color: hsl(225, 100%, 98%);
 	padding: 5%;
@@ -64,6 +67,8 @@ h2 {
 .plan-price {
 	/* padding-left: 20%; */
 	justify-content: right;
+	color:  hsl(224, 23%, 55%) ;
+
 }
 
 .change-link {
