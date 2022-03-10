@@ -1,5 +1,7 @@
 * {
 	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
   }
 body {
 	font-family: 'Red Hat Display', sans-serif;
@@ -7,12 +9,12 @@ body {
 	background-image: url(./images/pattern-background-desktop.svg);
 	background-repeat: no-repeat;
 	background-color: hsl(225, 100%, 94%);
-	display: flex;
+	/* display: flex; */
 }
 
 .container {
-	width: 70%;
-	max-width: 400px;
+	width: 80%;
+	max-width: 450px;
 	margin: 10% auto;
 	display: flex;
 	flex-direction: column;
@@ -30,9 +32,14 @@ body {
 
 }
 
+h1 {
+	margin: 1.5em 0 1em 0;
+	font-size: 1.75rem;
+}
 p {
 	font-size: 1rem;
 	padding: 0 10%;
+	text-align: center;
 	color:  hsl(224, 23%, 55%) ;
 
 }
@@ -94,5 +101,12 @@ p {
 	font-weight: 700;
 	border: none;
 	margin: 10px 0 20px 0;
+}
+
+.attribution { 
+	font-size: 11px; text-align: center; 
+}
+.attribution a { 
+	color: hsl(228, 45%, 44%); 
 }
 
