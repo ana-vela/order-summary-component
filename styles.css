@@ -87,6 +87,8 @@ p {
 }
 
 .payment:hover {
+	cursor: pointer;
+	background-color: #756cf1;
 	box-shadow: 0 4px 12px rgb(0 0 0 / 0.2);
 }
 .cancel {
@@ -99,6 +101,7 @@ p {
 }
 
 .cancel:hover {
+	cursor: pointer;
 	color: hsl(223, 47%, 23%);
 }
 
