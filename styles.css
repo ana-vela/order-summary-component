@@ -109,3 +109,18 @@ p {
 .attribution a {
 	color: hsl(228, 45%, 44%);
 }
+
+@media only screen and (max-width: 800px) {
+	body {
+		width: 80%;
+	}
+	h1 {
+		font-size: 1.5rem;
+	}
+	.plan {
+		font-size: 0.8rem;
+	}
+	.change {
+		font-size: 0.8rem;
+	}
+}
