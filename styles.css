@@ -42,7 +42,7 @@ p {
 	background-color: hsl(225, 100%, 98%);
 	padding: 5%;
 	width: 80%;
-	margin: 10%;
+	margin: 5% 10% 10% 10%;
 	display: flex;
 	justify-content: space-between;
 	border-radius: 20px;
