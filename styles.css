@@ -35,7 +35,7 @@ p {
 	font-size: 1rem;
 	padding: 0 10%;
 	text-align: center;
-	color: hsl(224, 23%, 55%);
+	color: #6B7694;
 }
 
 .info {
@@ -62,7 +62,7 @@ p {
 
 .plan-price {
 	justify-content: right;
-	color: hsl(224, 23%, 55%);
+	color: #6B7694;
 }
 
 .change-link {
@@ -93,7 +93,7 @@ p {
 }
 .cancel {
 	background-color: white;
-	color: hsl(224, 23%, 55%);
+	color: #6B7694;
 	font-size: 1rem;
 	font-weight: 700;
 	border: none;
