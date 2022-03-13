@@ -22,7 +22,7 @@ body {
 }
 
 .hero {
-	background-image: url(./images/illustration-hero.svg) fixed no-repeat;
+	background: url(./images/illustration-hero.svg) fixed no-repeat;
 	width: 100%;
 	border-radius: 20px 20px 0 0;
 }
