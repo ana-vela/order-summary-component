@@ -1,8 +1,11 @@
+/** @format */
+
 * {
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
 }
+
 body {
 	font-family: "Red Hat Display", sans-serif;
 	background-image: url(./images/pattern-background-desktop.svg);
@@ -31,6 +34,7 @@ h1 {
 	margin: 1.5em 0 1em 0;
 	font-size: 1.75rem;
 }
+
 p {
 	font-size: 1rem;
 	padding: 0 10%;
@@ -56,6 +60,7 @@ p {
 	display: flex;
 	flex-direction: column;
 }
+
 .plan-type {
 	font-weight: bold;
 }
@@ -73,6 +78,7 @@ p {
 	color: hsl(245, 75%, 52%);
 	text-decoration: none;
 }
+
 .payment {
 	color: white;
 	font-size: 1rem;
@@ -82,7 +88,6 @@ p {
 	padding: 15px 0;
 	border-radius: 10px;
 	width: 80%;
-
 	background-color: hsl(245, 75%, 52%);
 }
 
@@ -91,6 +96,7 @@ p {
 	background-color: #756cf1;
 	box-shadow: 0 4px 12px rgb(0 0 0 / 0.2);
 }
+
 .cancel {
 	background-color: white;
 	color: #6b7694;
@@ -104,25 +110,26 @@ p {
 	cursor: pointer;
 	color: hsl(223, 47%, 23%);
 }
-
 .attribution {
 	font-size: 11px;
 	text-align: center;
 }
 .attribution a {
-	color: hsl(228, 45%, 44%);
+	color: hsl(228, 46%, 64%);
 }
-
 @media only screen and (max-width: 800px) {
 	body {
 		width: 80%;
 	}
+
 	h1 {
 		font-size: 1.5rem;
 	}
+
 	.plan {
 		font-size: 0.8rem;
 	}
+
 	.change {
 		font-size: 0.8rem;
 	}
