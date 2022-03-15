@@ -106,22 +106,25 @@ p {
 	font-size: 1rem;
 	font-weight: 700;
 	border: none;
-	transition: .5s;
+	transition: 0.5s;
 	margin: 10px 0 50px 0;
 }
 
 .cancel:hover {
 	cursor: pointer;
-	transition: .5s;
+	transition: 0.5s;
 	color: hsl(223, 47%, 23%);
 }
+
 .attribution {
 	font-size: 11px;
 	text-align: center;
 }
+
 .attribution a {
 	color: hsl(228, 46%, 64%);
 }
+
 @media only screen and (max-width: 480px) {
 	body {
 		width: 80%;
