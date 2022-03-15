@@ -10,6 +10,7 @@ body {
 	font-family: "Red Hat Display", sans-serif;
 	background-image: url(./images/pattern-background-desktop.svg);
 	background-repeat: no-repeat;
+	background-size: contain;
 	background-color: hsl(225, 100%, 94%);
 }
 
@@ -88,11 +89,13 @@ p {
 	padding: 15px 0;
 	border-radius: 10px;
 	width: 80%;
+	transition: 1s;
 	background-color: hsl(245, 75%, 52%);
 }
 
 .payment:hover {
 	cursor: pointer;
+	transition: 1s;
 	background-color: #756cf1;
 	box-shadow: 0 4px 12px rgb(0 0 0 / 0.2);
 }
@@ -103,11 +106,13 @@ p {
 	font-size: 1rem;
 	font-weight: 700;
 	border: none;
+	transition: .5s;
 	margin: 10px 0 50px 0;
 }
 
 .cancel:hover {
 	cursor: pointer;
+	transition: .5s;
 	color: hsl(223, 47%, 23%);
 }
 .attribution {
@@ -117,7 +122,7 @@ p {
 .attribution a {
 	color: hsl(228, 46%, 64%);
 }
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 480px) {
 	body {
 		width: 80%;
 	}
@@ -130,7 +135,7 @@ p {
 		font-size: 0.8rem;
 	}
 
-	.change {
+	.change-link {
 		font-size: 0.8rem;
 	}
 }
